@@ -16,7 +16,7 @@
 		<option>Spanish</option>
 		<option>French</option>
 	</select>
-	<input type="submit" value="Call Servlet" />
+	<input type="submit" value="Call Servlet HAHAHAHAHAHA" />
 </form>
 
 </body>
