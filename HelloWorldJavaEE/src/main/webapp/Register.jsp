@@ -9,14 +9,14 @@
 <body>
 <form action="RegisterServlet" method="post">
 	Name: <input type="text" name="userName">
-	Password: <input type="password" name="password">
-	Email: <input type="text" name="email">
-	Language: <select name="language">
-		<option>English</option>
-		<option>Spanish</option>
-		<option>French</option>
+	Title: <input type="text" name="title">
+	Text: <input type="text" name="text">
+	Category: <select name="category">
+		<option>General</option>
+		<option>Food</option>
+		<option>Travel</option>
 	</select>
-	<input type="submit" value="Call Servlet Eat dick" />
+	<input type="submit" value="Post Now" />
 </form>
 
 </body>
