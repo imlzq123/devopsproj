@@ -16,7 +16,7 @@
 		<option>Food</option>
 		<option>Travel</option>
 	</select>
-	<input type="submit" value="Post Now12" />
+	<input type="submit" value="Post Now" />
 </form>
 
 </body>
