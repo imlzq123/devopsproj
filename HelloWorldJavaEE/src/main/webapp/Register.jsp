@@ -16,7 +16,7 @@
 		<option>Food</option>
 		<option>Travel</option>
 	</select>
-	<input type="submit" value="Post Now TO TEST branch" />
+	<input type="submit" value="Post Now" />
 </form>
 
 </body>
