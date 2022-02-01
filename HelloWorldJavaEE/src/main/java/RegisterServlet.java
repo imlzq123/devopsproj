@@ -42,9 +42,9 @@ public class RegisterServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		
 		String n = request.getParameter("userName");
-		String p = request.getParameter("password");
-		String e = request.getParameter("email");
-		String c = request.getParameter("language");
+		String t = request.getParameter("title");
+		String txt = request.getParameter("text");
+		String c = request.getParameter("category");
 		
 		try {
 		 Class.forName("com.mysql.jdbc.Driver");
@@ -56,14 +56,14 @@ public class RegisterServlet extends HttpServlet {
 				  
 		   ps.setString(1, n);
 		   ps.setString(2, p);
-		   ps.setString(3, e);
+		   ps.setString(3, txt);
 		   ps.setString(4, c);
 		
 		   int i = ps.executeUpdate();
 
 		   if (i > 0){
 			   PrintWriter writer = response.getWriter();
-			   writer.println("<h1>" + "You have successfully registered an account!" +
+			   writer.println("<h1>" + "You have successfully posted!" +
 			   "</h1>");
 			   writer.close();
 			   }
