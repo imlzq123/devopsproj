@@ -55,7 +55,7 @@ public class RegisterServlet extends HttpServlet {
 		  PreparedStatement ps = con.prepareStatement("insert into USERDETAILS values(?,?,?,?)");
 				  
 		   ps.setString(1, n);
-		   ps.setString(2, p);
+		   ps.setString(2, t);
 		   ps.setString(3, txt);
 		   ps.setString(4, c);
 		
