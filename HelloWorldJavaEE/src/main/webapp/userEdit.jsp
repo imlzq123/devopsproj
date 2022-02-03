@@ -52,16 +52,16 @@ value='${user.name}' />" />
 value='${user.name}' />" class="form-control" name="name" required="required">
 </fieldset>
 <fieldset class="form-group">
-<label>Password</label> <input type="text" value="<c:out
-value='${user.password}' />" class="form-control" name="password">
+<label>Title</label> <input type="text" value="<c:out
+value='${user.title}' />" class="form-control" name="title">
 </fieldset>
 <fieldset class="form-group">
 <label>User Email</label> <input type="text" value="<c:out
-value='${user.email}' />" class="form-control" name="email">
+value='${user.text}' />" class="form-control" name="text">
 </fieldset>
 <fieldset class="form-group">
-<label> Language</label> <input type="text" value="<c:out
-value='${user.language}' />" class="form-control" name="language">
+<label> Category</label> <input type="text" value="<c:out
+value='${user.category}' />" class="form-control" name="category">
 </fieldset>
 <button type="submit" class="btn btn-success">Save</button>
 </form>
