@@ -42,8 +42,8 @@ public class RegisterServlet extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		
 		String n = request.getParameter("userName");
-		String t = request.getParameter("title");
-		String txt = request.getParameter("text");
+		String p = request.getParameter("title");
+		String e = request.getParameter("text");
 		String c = request.getParameter("category");
 		
 		try {
@@ -55,8 +55,8 @@ public class RegisterServlet extends HttpServlet {
 		  PreparedStatement ps = con.prepareStatement("insert into USERDETAILS values(?,?,?,?)");
 				  
 		   ps.setString(1, n);
-		   ps.setString(2, t);
-		   ps.setString(3, txt);
+		   ps.setString(2, p);
+		   ps.setString(3, e);
 		   ps.setString(4, c);
 		
 		   int i = ps.executeUpdate();
