@@ -56,7 +56,7 @@ value='${user.name}' />" class="form-control" name="name" required="required">
 value='${user.title}' />" class="form-control" name="title">
 </fieldset>
 <fieldset class="form-group">
-<label>User Email</label> <input type="text" value="<c:out
+<label>Text</label> <input type="text" value="<c:out
 value='${user.text}' />" class="form-control" name="text">
 </fieldset>
 <fieldset class="form-group">
