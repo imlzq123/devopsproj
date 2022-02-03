@@ -1,48 +1,37 @@
 
-public class User {
-	protected String name;
+public class Post{
 	
-	 public User(String name, String password, String email, String language) {
+	 public Post(String title, String text, String category, String username) {
 		super();
-		this.name = name;
-		this.password = password;
-		this.email = email;
-		this.language = language;
+		this.title = title;
+		this.text = text;
+		this.category = category;
+		this.username = username;
 	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
-	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
-	public String getLanguage() {
-		return language;
-	}
-
-	public void setLanguage(String language) {
-		this.language = language;
-	}
-
-	protected String password;
-	 protected String email;
-	 protected String language;
+	 public String getTitle() {
+			return title;
+		}
+		public void setTitle(String title) {
+			this.title = title;
+		}
+		public String getText() {
+			return text;
+		}
+		public void setText(String text) {
+			this.text = text;
+		}
+		public String getCategory() {
+			return category;
+		}
+		public void setCategory(String category) {
+			this.category = category;
+		}
+		public String getUsername() {
+			return username;
+		}
+		public void setUsername(String username) {
+			this.username = username;
+		}
 }
+
