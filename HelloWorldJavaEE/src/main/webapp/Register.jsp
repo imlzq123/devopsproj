@@ -14,7 +14,7 @@
 	Category: <select name="category">
 		<option>General</option>
 		<option>Food</option>
-		<option>Travel</option>
+		<option>Philosophy</option>
 	</select>
 	<input type="submit" value="Post Now" />
 </form>
